@@ -1,0 +1,143 @@
+.container
+{
+    margin: auto;
+}
+.navbar
+{
+    overflow: hidden;
+    background-color: #333;
+}
+.navbar a:hover
+{
+    background-color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.navbar a{
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 120px;
+    
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown{
+float: left;
+overflow: hidden;
+}
+.dropdown-content a:hover{
+    background-color: red;
+}
+.title
+{
+    background-color: #F1948A ;
+     text-align: center;
+     border: rgb(92, 92, 92) outset 5px;
+     padding-bottom: 10px;
+     padding-top: 10px;
+}
+h3{
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+    border: 10px outset #ca4c3e;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:black;
+    color: white;
+}
+
+.beau
+{
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    background-color: black;
+    font-family: 'Fredoka', sans-serif;
+    color: white;
+
+}
+.haws
+{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: #333 outset 10px;
+    border-top: rgb(39, 38, 38) outset 10px;
+    color: #0722E7;
+}
+p{
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+    text-shadow: 1em;
+    font-weight: 100;
+}
+.bt a{
+    text-align: center;
+    border: blue outset 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+.bt a:hover
+{
+    background-color:black;
+    color: #f9f9f9;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bor
+{
+    border-top: black outset 10px ;
+}
+li{
+    text-align: center;
+    list-style-position: outside;
+}
+ul
+{
+    text-align: center;
+    list-style: circle;
+    list-style-position: inside;
+}
+button
+{
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+form
+{
+    text-align: center;
+    margin: 4px 2px;
+    
+}
+img{
+    border-radius: 20px;
+    border: 2px;
+}
+label
+{
+    font-family: fantasy;
+}
+.h11
+{
+    color: blue;
+}

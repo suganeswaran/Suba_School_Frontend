@@ -1,0 +1,95 @@
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript">
+		function start()
+		{
+			var i,j,t,n;
+			c1="<h3>Before Sorting : </h3>";
+			n=window.prompt("Enter the Array Size : ");
+			var n2=parseInt(n);
+			var a=new Array(n2)
+			for(i=0;i<n2;i++)
+			{
+				a[i]=window.prompt("Enter "+i+" Element :");
+			}
+			for(i=0;i<n2;i++)
+			{
+				c1+=a[i]+"\t";
+			}
+			document.getElementById("before").innerHTML=c1;
+			sort(a)
+
+		}
+		function sort(a)
+		{
+			c2="<h3>After Sorting : </h3>"
+			var i,j,t;
+			for(i=0;i<a.length-1;i++)
+			{
+				for(j=0;j<a.length-1;j++)
+				{
+					if(a[j]>a[j+1])
+					{
+						t=a[j];
+						a[j]=a[j+1];
+						a[j+1]=t;
+					}
+
+				}
+			}
+			for(i=0;i<a.length;i++)
+			{
+				c2+=a[i]+"\t";
+
+			}
+			document.getElementById("after").innerHTML=c2;
+
+		}
+	</script>
+	<title>Document</title>
+</head>
+<body onload="start()">
+	<div id="before"></div>
+	<br><br>
+	<div id="after"></div>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script type="text/javascript">
+		
+		window.addEventListener("load",detail,false);
+		c2="<p>20CSR200<br>SIVASANKAR B<br>BE<br>CSE<br></p>";
+		function detail()
+		{
+			document.getElementById("siva").addEventListener("mouseover",over,false);
+			document.getElementById("siva").addEventListener("mouseout",out,false);
+		}
+		function over()
+		{
+			document.getElementById("siva").innerHTML=c2;
+		}
+		function out()
+		{
+			document.getElementById("siva").innerHTML="SIVASANKAR";
+		}
+
+	</script>
+</head>
+<body>
+	<h2 id="siva">SIVASANKAR</h2>
+</body>
+</html>
